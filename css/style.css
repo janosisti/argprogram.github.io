@@ -103,7 +103,7 @@ a{
 
 /* SHOWCASE */
 #showcase{
-    background: url('img/fondo.png');
+    background: url('main/img/fondo.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
