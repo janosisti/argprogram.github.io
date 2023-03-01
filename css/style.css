@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* MAIN STYLING */
+html,
+body{
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2{
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+h4{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+p{
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.7rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* UTILITY CLASSES */
+.container{
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.large{
+    font-size: 20px;
+}
+.btn{
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px 30px;
+    letter-spacing: 1px;
+}
+
+.btn-outline{
+    background: transparent;
+    border: 1.5px solid rgba(255, 255, 255, 0.404);
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.btn-outline:hover{
+    background:transparent;
+    opacity: .6;
+    color:#fff;
+    border-color: #fff;
+}
+/* NAVBAR */
+#navbar{
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#navbar a{
+    color: #000;
+}
+#navbar .logo{
+    float: left;   
+}
+#navbar img{
+    height: 60px;
+}
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+/* SHOWCASE */
+#showcase{
+    background: url('/img/fondo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 400px;
+    text-align: center;
+    padding: 100px;
+}
+#showcase .btn{
+    margin-top: 180px;
+}
+
+/* PROJECTS */
+#projects{
+    padding: 80px 0;
+}
+.projects-row{
+    display: flex;
+    gap: 20px;
+}
+.projects-row img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* ABOUT */
+#about{
+    padding: 80px 0;
+    background: #f9f9f9;
+}
+.about-row{
+    display: flex;
+}
+.about-row-skills,
+.about-row-me {
+    width: 50%;
+    padding: 0px 30px;
+}
+
+/* CONTACT */
+#contact {
+    padding: 80px 0;
+}
+.contact-row{
+    display: flex;
+}
+.contact-row-icon{
+    width: 33%;
+    text-align: center;
+}
+.contact-row-icon img{
+    height: 60px;
+}
+
+/* FOOTER */
+#mainfooter{
+    background: #f9f9f9;
+    text-align: center;
+    padding: 30px;
+}
